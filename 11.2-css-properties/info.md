@@ -1,9 +1,9 @@
-- Use of internal CSS-fonts (text properties & remixicon)
-- CSS-Properties
-    - family-font
+- Use of internal CSS-fonts
+- CSS text properties 
+    - *family-font
     - font-size
     - color
-    - font-weight
+    - *font-weight
     - text-align
     - line-height
     - letter-spacing
@@ -12,7 +12,12 @@
     - font-style
     - text-transform
     - test-indent
+    - list-style/
 - online font attachment
+
+- remixicon
+    - goto [remixicon](https://remixicon.com/) site
+    - online attachment and offline attechment
 
 
 NOTE:
