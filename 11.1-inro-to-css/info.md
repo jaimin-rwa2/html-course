@@ -1,0 +1,11 @@
+- intro of css
+    - CSS : Cascading Style Sheets
+    - it is create to build designed web pag
+    - how HTML elements shoulde displayed on screen
+    - It can control the layout of multiple web pages all at once
+- types of css
+    - inline
+    - internal
+    - external
+- Apply css using diff selectors: <tag>, .class, #id
+- @media and @key
