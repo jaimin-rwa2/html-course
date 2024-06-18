@@ -1,4 +1,4 @@
-- <a> anchor tag
+- `<a>` anchor tag
     - href=""  (hypertext reference)
     - target=""
 
@@ -7,13 +7,13 @@
     - internal link
     - bookmark link (id Attribute also required)
 
-- <font> tag
+- `<font>` tag
     - color=""
     - size=""
     - face=""
     - NOTE : this all we can perform in CSS which we will see  in future
 
-- use of html entity (&nbsp; &copy;)
+- use of html entity `(&nbsp; &copy;)`
 
 
 - example : 

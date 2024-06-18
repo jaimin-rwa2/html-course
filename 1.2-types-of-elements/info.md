@@ -1,10 +1,10 @@
 1. Two types of elements
     1. Block Elements 
-        - h1, h2, h3, h4, h5, h6, p, hr, br, ul, ol, li, ( dl, dd ) 
+        - h1, h2, h3, h4, h5, h6, p, hr, br, ul, ol, li, (dl, dt, dd)
     2. Inine Elements 
         - i, em, b, strong, big, small, sub, sup, u, ins, del, s, mark
     3. There are many other elements other then this 
-        - <pre> p tag with space and new line
+        - `<pre>` is p tag with space and new line
 
 
 2. Tag Attributes
@@ -13,8 +13,8 @@
     - type="", start="", align=""
 
 3. Two types of tags (Extra)
-    - Paired tags: <h1></h1>, <p></p>
-    - Self-closing tag: <hr>, <br/> 
+    - Paired tags: `<h1></h1>, <p></p>`
+    - Self-closing tag: `<hr>, <br/>`
 
 
 

@@ -7,5 +7,5 @@
     - inline
     - internal
     - external
-- Apply css using diff selectors: <tag>, .class, #id
+- Apply css using diff selectors: `<tag>, .class, #id`
 - @media and @key

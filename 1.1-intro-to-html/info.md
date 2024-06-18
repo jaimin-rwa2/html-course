@@ -5,15 +5,13 @@
     - Each and every thing on browser webpage is created with help of html, describes the structure of a Web page
 3. Structure of HTML 
 4. HTML TAGs
-    - <h1> </h1>
-    - <hr>
+    - `<h1> </h1>`
+    - `<hr>`
 5. HTML Elements
     - defined by a start tag, some content, and an end tag
-    - <h1>My First Heading</h1>
+    - `<h1>My First Heading</h1>`
 
-
-NOTE:
-
+- NOTE:
     - comments   <!--  comment -->
         - it can hide the content
         - also help to add info
