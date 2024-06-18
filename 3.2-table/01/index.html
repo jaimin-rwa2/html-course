@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <table border="" width="500px" height="300px" cellspacing="0"> <!-- height and footer dose not increase height-->
+            <caption><b>Table</b></caption>
+            <thead>
+                <tr> <!-- table structer depends on number of rows on col-->
+                    <th>one</th>
+                    <th>two</th>
+                    <th>three</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>one 1</td>
+                    <td>two 1</td>
+                    <td>three 1</td>
+                </tr>
+                <tr>
+                    <td>one 2</td>
+                    <td>two 2</td>
+                    <td>three 2</td>
+                </tr>
+                <tr>
+                    <td>one 3</td>
+                    <td>two 3</td>
+                    <td>three 3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>footer 1</td>
+                    <td>footer 2</td>
+                    <td>footer 3</td>
+                </tr>
+            </tfoot>
+        </table>
+    </center>
+
+    <br><br>
+
+    <table border="" width="500px" height="300px" cellspacing="10" cellpadding="10" align="center"> <!-- we can not merge tbody with thead or tbody with tfoot-->
+        <caption><b>Table with cellspacing and cellpadding</b></caption>
+        <thead>
+            <tr> <!-- table structer depends on number of rows on col-->
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="right">
+                <td>one 1</td>
+                <td>two 1</td>
+                <td>three 1</td>
+            </tr>
+            <tr align="center">
+                <td>one 2</td>
+                <td>two 2</td>
+                <td>three 2</td>
+            </tr>
+            <tr>
+                <td align="right">one 3</td>
+                <td align="center">two 3</td>
+                <td>three 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>footer 1</td>
+                <td>footer 2</td>
+                <td>footer 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+
+    <table border="5" width="500px" height="300px" > <!-- bgcolor="yellow"-->>
+        <caption><b>Table with colspan, rowspan, bgcolor</b></caption>
+        <!-- colspan and rowspan can not be done at same time with diff values -->
+        <thead>
+            <tr bgcolor="yellow"> <!-- table structer depends on number of rows on col-->
+                <th>one</th>
+                <th>two</th>
+                <th>three</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">one 1</td>  <!-- Atchuly width will be increased-->
+                <td>two 1</td>
+                <td>three 1</td>  <!-- so this td will come outside of table, so we will have to remove this-->
+            </tr>
+            <tr>
+                <td rowspan="2">one 2</td>  <!-- Atchuly height will be increased-->
+                <td colspan="2">two 2</td>
+                <!-- <td>three 2</td> -->
+            </tr>
+            <tr>
+                <td>one 3</td>  <!-- in row span this td will come outside of table at row level -->
+                <td>two 3</td>
+                <td>three 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>footer 1</td>
+                <td>footer 2</td>
+                <td>footer 3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
