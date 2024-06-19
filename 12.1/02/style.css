@@ -20,7 +20,12 @@
 
 .banner3{
     height: 500px;
+    /* width: 500px; */  /* width is not given then to get circule pass circule as 1st params*/
+    background-image: radial-gradient(circle, orange, white, green)
+}
+
+.banner4{
+    height: 500px;
     width: 500px;
-    /* also we can chage direction : to left,  to right, to bottom, to top */
-    background-image: radial-gradient(90deg, orange, white, green)
+    background-image: conic-gradient(orange, white, green)
 }
