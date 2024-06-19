@@ -1,0 +1,1 @@
+- Font Awesome & SVG Icon Favicon

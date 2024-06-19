@@ -1,0 +1,4 @@
+p.ex1 {display: none;}   
+p.ex2 {display: inline;}    /* Any height and width properties will have no effect LIKE <span>*/
+p.ex3 {display: block;}
+p.ex4 {display: inline-block;}  /* you can apply height and width values */

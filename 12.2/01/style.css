@@ -1,0 +1,65 @@
+*{
+    /* universer selecter */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    padding: 50px;  /* top right bottom left  &  top-bottom left-right,  as green color*/  
+    margin: 50px;  /* top right bottom left & top-bottom left-right, as orange color*/  
+    
+    display: inline-block;
+
+    border-width: 10px;
+    border-style: solid; /* dotted, dashed, double, inset, outset, groove ridge  */
+    border-color: brown;
+    /* border: 10px solid brown; */
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    padding: 50px;  /* top right bottom left  &  top-bottom left-right,  as green color*/
+    margin: 50px;  /* top right bottom left  &  top-bottom left-right,  as orange color*/
+
+    display: inline-block;
+
+    border: 10px solid crimson;
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    padding: 50px;  /* top right bottom left  &  top-bottom left-right,  as green color*/
+    margin: 50px;  /* top right bottom left  &  top-bottom left-right,  as orange color*/
+
+    display: inline-block;
+
+    border: 10px solid chartreuse;
+
+    /* border-radius: 25px; */
+    border-radius: 25px 60px 100px 150px;
+}
+.box4{
+    width: 400px;
+    height: 400px;
+    background-color: burlywood;
+    padding: 50px;  /* top right bottom left  &  top-bottom left-right,  as green color*/
+    margin: 50px;  /* top right bottom left  &  top-bottom left-right,  as orange color*/
+
+    display: inline-block;
+
+    border: 10px solid navy;
+
+    border-radius: 50px 20px;
+}
+
+ul{
+    /* defalut padding is removed so to see points we need to give margin or padding  */
+    margin-left: 20px;
+}
