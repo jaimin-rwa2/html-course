@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-image: url(https://wallpapercave.com/wp/6Zi3yGl.jpg);  /* ../ also teach */
+    height: 500px;
+
+    background-size: cover;
+    background-position: bottom;  /* bottom,  center*/
+    color: white;
+}
+
+
+.banner2{
+    background-image: url(img/intro.png);  /* ../ also teach */
+    height: 500px;
+    /* width: 500px; */
+    /* background-size: cover; */  /* small images will not visibal properly */
+    background-repeat: no-repeat;   
+    /* background image has moved not the content*/
+    background-position: 100px 200px;    /* it will move it's place for x and y position */
+    color: white;
+}

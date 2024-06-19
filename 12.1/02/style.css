@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    background-color: pink;
+    /* if ther is no content then bg coloer will not visible so give fix height */
+    height: 500px;
+    width: 500px;
+}
+
+.banner2{
+    height: 500px;
+    width: 500px;
+    /* also we can chage direction : to left,  to right, to bottom, to top */
+    background-image: linear-gradient(90deg, orange, white, green)
+}
+
+.banner3{
+    height: 500px;
+    width: 500px;
+    /* also we can chage direction : to left,  to right, to bottom, to top */
+    background-image: radial-gradient(90deg, orange, white, green)
+}
