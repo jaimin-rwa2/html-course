@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    perspective: 900px;
+    /* perspective help use to see rotaion in 3d way */
+    /* lover the value, angel will be far, higer the value, angel will be near */
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 100px;
+    transform: rotate(45deg);   
+    /* transform: rotateX(45deg);    */
+    /* transform: rotateY(45deg);    */
+}
+
+
+.box2{
+    /*  scale fall between 0 to 1, if we give 1.1 then it will increse the size of box */
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 100px;
+    transform: scale(0.5);   
+    /* transform: scaleX(0.6);    */
+    /* transform: scaleY(0.8);    */
+}
+
+
+.box2{
+    /*  scale fall between 0 to 1, if we give 1.1 then it will increse the size of box */
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 100px;
+    transform: skewX(0.5);   
+    /* transform: rotateX(0.6);    */
+    /* transform: rotateY(0.8);    */
+}
