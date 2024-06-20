@@ -14,13 +14,19 @@
     height: 200px;
     background-color: aqua;
     float: left;
+    font-size: 150px;
+    text-align: center;
+    line-height: 200px;
 }
 
 .box2{
     width: 200px;
     height: 200px;
     background-color: violet;
-    float: right;
+    float: left;
+    font-size: 150px;
+    text-align: center;
+    line-height: 200px;
 }
 
 
@@ -28,30 +34,17 @@
     clear: both;
 }
 
-/* also try float right */
-.box3{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
-    float: left;
+.p1{
+    color: white;
 }
 
-.box4{
-    width: 200px;
-    height: 200px;
-    background-color: chocolate;
-    float: left;
+.p2{
+    color: black;
 }
 
-img{
-    object-fit: cover;
-    border: 10px solid dimgray;
-    object-position: center;  /* x-direction img will move, y-direction image will move*/
-}
-
-.box5{
-    width: calc(100% - 350px);
-    height: 100px;
-    background-color: blue;
-    float: right;
-}
+/* 
+    to keep symbol in center 
+    -   apply padding , not wright way
+    -   text-align:"center";  padding for top bottom   , not wright way
+    -    text-align:"center"  line-height:height-of-box
+ */
