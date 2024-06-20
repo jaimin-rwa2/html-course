@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 .box1{
     width: 400px;
     height: 400px;
@@ -31,6 +32,17 @@
 
     border: 10px solid crimson;
 }
+
+/* 
+    also we can apply in %
+    border-top-left-radius: 40px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 160px;
+    try : fancy border radius generator 
+*/
+
+
 .box3{
     width: 400px;
     height: 400px;

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    if we do float then it will move from it's place to body tag
+    float value effects, content of all type
+*/
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    float: left;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    float: right;
+}
+
+
+.float-br{
+    clear: both;
+}
+
+/* also try float right */
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    float: left;
+}
+
+img{
+    object-fit: cover;
+    border: 10px solid dimgray;
+    object-position: center;  /* x-direction img will move, y-direction image will move*/
+}
+
+.box5{
+    width: calc(100% - 350px);
+    height: 100px;
+    background-color: blue;
+    float: right;
+}

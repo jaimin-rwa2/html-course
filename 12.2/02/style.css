@@ -1,4 +1,22 @@
-p.ex1 {display: none;}   
-p.ex2 {display: inline;}    /* Any height and width properties will have no effect LIKE <span>*/
-p.ex3 {display: block;}
-p.ex4 {display: inline-block;}  /* you can apply height and width values */
+
+/* 
+    display: none
+    display: block
+*/
+
+p.ex1 {
+    display: none;
+    background-color: crimson;
+}   /* visibility: hidden  */
+p.ex2 {
+    display: inline;
+    background-color: crimson;
+}    /* Any height and width properties will have no effect LIKE <span>*/
+p.ex3 {
+    display: block;
+    background-color: crimson;
+}
+p.ex4 {
+    display: inline-block;
+    background-color: crimson;
+}  /* you can apply height and width values */
