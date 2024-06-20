@@ -50,7 +50,7 @@ img{
 }
 
 .box5{
-    width: calc(100% - 350px);
+    width: calc(100% - 350px); /* Calc(10px + 120px) also we can do this*/
     height: 100px;
     background-color: blue;
     float: right;
