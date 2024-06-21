@@ -5,6 +5,7 @@
 }
 
 .main{
+    display: inline-block;
     perspective: 900px;
     /* perspective help use to see rotaion in 3d way */
     /* lover the value, angel will be far, higer the value, angel will be near */
@@ -33,13 +34,25 @@
 }
 
 
-.box2{
-    /*  scale fall between 0 to 1, if we give 1.1 then it will increse the size of box */
+.box3{
+    /* skewX : top left corner will move to left side and bottom right will move to right side */
+    /* skewY : top left corner will move to top side and bottom right will move to bottom side */
     width: 200px;
     height: 200px;
     background-color: black;
     margin: 100px;
-    transform: skewX(0.5);   
-    /* transform: rotateX(0.6);    */
-    /* transform: rotateY(0.8);    */
+    transform: skewX(20deg) skewY(20deg);   
+    /* transform: skewX(20deg);    */
+    /* transform: skewY(20deg);    */
+}
+
+.box4{
+    /*  */
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 100px;
+    transform: translateX(90%);  /* in -ve and +ve px also */  
+    /* transform: translateX(20deg);   horizontel move */
+    /* transform: translateY(20deg);   vertical move */
 }
