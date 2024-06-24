@@ -97,5 +97,5 @@
 /* it can be apply only where position is applied except static position because static is default position */
 /* also it will work for direct child of  display: flax property */
 /* z-index : -1 if we want to send it to back side then others*/
-/* z-index : 1 if we want to send it to up side then others*/
+/* z-index : 1 if we want to send it to up side then others, indestry stander numbers is 9*/
 /* between z-index : -1 and z-index : -2, z-index : -2 will be at back side  */
