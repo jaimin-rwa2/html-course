@@ -19,6 +19,7 @@
     transform: rotate(45deg);   
     /* transform: rotateX(45deg);    */
     /* transform: rotateY(45deg);    */
+    /* rotate: 45deg */
 }
 
 
@@ -31,6 +32,7 @@
     transform: scale(0.5);   
     /* transform: scaleX(0.6);    */
     /* transform: scaleY(0.8);    */
+    /* scal: 0.8 */
 }
 
 
@@ -44,6 +46,7 @@
     transform: skewX(20deg) skewY(20deg);   
     /* transform: skewX(20deg);    */
     /* transform: skewY(20deg);    */
+    /* skew dose not have property */
 }
 
 .box4{
@@ -53,6 +56,8 @@
     background-color: black;
     margin: 100px;
     transform: translateX(90%);  /* in -ve and +ve px also */  
-    /* transform: translateX(20deg);   horizontel move */
-    /* transform: translateY(20deg);   vertical move */
+    /* transform: translateX(20px);   horizontel move */
+    /* transform: translateY(-20px);   vertical move */
+    /* transform: translateX(-20px) translateY(20px); */
+    /* translate: 50px */
 }

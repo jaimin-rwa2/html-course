@@ -1,2 +1,2 @@
 ## Position, Selector, Transform & Transition Properties
-- Positionstatic, Absolute, Relative, Fixed, Sticky, Z Index, Overflow
+- Position: static, Absolute, Relative, Fixed, Sticky, Z Index, Overflow

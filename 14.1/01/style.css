@@ -1,0 +1,28 @@
+p:first-line{
+    color: blueviolet;
+}
+
+h1:first-letter{
+    font-size: 50px;
+    color: blue;
+}
+
+/* only 1st li will this changes */
+li:first-child{
+    color: brown;
+}
+
+li:last-child{
+    color: chartreuse;
+}
+
+li:nth-child(3n-2){
+    /* even(2n), odd(2n-1), 3n, 3n-1, 3n-2 */
+    color: red;
+}
+
+/* li:nth-last-child(2){
+    color: green;
+} */
+
+/* which logics we can perform in side abow property brackes ? */

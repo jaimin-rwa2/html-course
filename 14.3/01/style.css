@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: white;
+}
+
+.box11{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;  /* now this will come over body tag level */
+    /* because of this it will flot in houl body */
+    /* absolute div will fixed based on screen where it placed */
+    /* top: 10%; */
+    bottom: 0;
+    right: 30%;
+    /* left: 0; */
+}
+
+
+.box12{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: fixed;
+    /* it will be fixed it will not moved even if we scrol */
+    /* top: 10%; */
+    bottom: 0;
+    right: 0;
+    /* left: 0; */
+}
+
+.box2{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    position: relative;
+}
+
+.box21{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;  /* if parent is relative then this box will come over only parent */
+    /* because of this it can flot in parent tag */
+    top: 0;
+    /* bottom: 0; */
+    right: 0;
+    /* left: 0; */
+}
+
+/* position: static */
+/* if we want to remove elements other position and want to show it to it's original position then we can use it */
+/* show this into instapct menu */
+
+
+.box-sticky{
+    margin: 50px;
+    height: 100px;
+    background-color: chocolate;
+    color: white;
+    position: sticky;
+    top: 0;
+    right: 0;
+}
+
+
+.box3{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: green;
+    margin: 50px;
+
+    overflow: auto;
+    /* overflow: hidden; */  /* overflow: visible; */
+    /* overflow-x: scroll; */  /* same as auto */
+    /* same with overflow-y */
+}
+
+.box-p{
+    width: 600px;
+}
+
+
+/* for sticky and relative position will not be changed of box but for absolute and fixed positon will be changed for box */
+/* z-index: +/- number */
+/* it can be apply only where position is applied except static position because static is default position */
+/* also it will work for direct child of  display: flax property */
+/* z-index : -1 if we want to send it to back side then others*/
+/* z-index : 1 if we want to send it to up side then others*/
+/* between z-index : -1 and z-index : -2, z-index : -2 will be at back side  */
