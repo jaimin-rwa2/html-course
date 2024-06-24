@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+}
+
+.box11{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+}
+
+
+.box12{
+    width: 100px;
+    height: 100px;
+    background-color:yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box2{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    position: relative;
+}
+
+.box2::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;  /* this is must here*/
+}
+
+.box2:after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* how to add image in befor after */

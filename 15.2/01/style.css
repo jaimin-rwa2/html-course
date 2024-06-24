@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;
+    /* justify-content: flex-start;  */ /* defalut value */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+}
+
+.background2{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;
+    /* align-items: flex-start; */ /* defalut value*/
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: center; */
+    /* align-items: stretch; */  /*if by default we remove height of child box then it will automatic become stretch */
+    /* align-items: baseline; */ /* based on content size every box will have auto height only */
+}
+
+.background3{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;  
+    flex-flow: column wrap; /* data flex-wrap and flex-direction */
+
+     /* it will remove spacing between content */
+    /* align-content: flex-start;  */
+    /* align-content: flex-end;  */
+    /* align-content: center;  */
+    /* align-content: space-between;  */
+    /* align-content: space-around;  */
+    /* align-content: space-evenly;  */
+    /* align-content: stretch; not working as explained why? */
+}
+
+.box{
+    width: 80px;   /* after parent flex widht will be only based on content size */
+    height: 80px;  /* after parent flex height will be auto adjesst */
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid orange;
+}
+
+/* 
+    text-align: center;
+    line-height: 80px;
+    -------------------
+    display: flex;
+    justify-content: center;
+    align-items: center;
+*/

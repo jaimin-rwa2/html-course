@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;  /* data go left */
+    /* flex-direction: row; */  /* defalut */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+    /* without display flex this all property will not work */
+}
+
+.background2{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;  /* data flex-wrap: no-wrap; */
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+
+.background3{
+    height: 500px;
+    background-color: #a19c9c;
+    display: flex;  
+    flex-flow: column wrap; /* data flex-wrap and flex-direction */
+}
+
+.box{
+    width: 80px;   /* after parent flex widht will be only based on content size */
+    height: 80px;  /* after parent flex height will be auto adjesst */
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    border: 1px solid orange;
+}
+
