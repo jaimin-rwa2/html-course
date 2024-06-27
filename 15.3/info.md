@@ -1,0 +1,3 @@
+- Display Flex (Child Property)
+- Flex-Basis, Flex-Grow, Flex-Shrink, Order
+- Align-Self (Stretch, Center, Flex-Start, Flex-End, Baseline)

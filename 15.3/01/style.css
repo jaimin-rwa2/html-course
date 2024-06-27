@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 800px;
+    background-color: #a19c9c;
+    display: flex;
+    flex-direction: column;  /* defalut it is row, but we can convert to column */
+}
+
+
+.box{
+    width: 80px; 
+    height: 80px;
+    background-color: black;
+    color: white;
+    /* text-align: center;
+    line-height: 80px; */
+    border: 1px solid orange;
+}
+
+
+/* for columns it will work horizontaly and for rows it will work verticaly */
+.align-self-start{
+    align-self: flex-start;
+}
+
+.align-self-center{
+    align-self: center;
+}
+
+.align-self-end{
+    align-self: flex-end;
+}
+
+.align-self-stretch{
+    align-self: stretch;
+}
+
+.align-self-baseline{
+    width: auto; 
+    height: auto;   
+    align-self: baseline;
+}
+
+/* flex-basis */
+
+.main{
+    display: flex;
+}
+.flex-basis{
+    flex-basis: 500px;  /* same as width */
+    background-color: pink;
+}
+
+/* flex-grow */
+
+.background2{
+    height: 400px;
+    background-color: #a19c9c;
+    display: flex;
+}
+
+
+.box2{
+    width: 80px; 
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+
+    /* flex-grow: 1; */
+}
+
+
+.grow{
+    flex-grow: 3;
+}
+
+/* shrink */
+
+.background3{
+    height: 400px;
+    background-color: #a19c9c;
+    display: flex;
+}
+
+.box3{
+    width: 900px; 
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+}
+
+
+.shrink1{
+    flex-shrink: 0;
+}
+
+.shrink2{
+    flex-shrink: 4;
+}

@@ -33,7 +33,6 @@
     background-color: #a19c9c;
     display: flex;  
     flex-flow: column wrap; /* data flex-wrap and flex-direction */
-
      /* it will remove spacing between content */
     /* align-content: flex-start;  */
     /* align-content: flex-end;  */
