@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.box{
+    background-color: burlywood;
+    height: 300px;
+}
+
+.w-1{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-1:nth-child(2) .box{
+    background-color: red;
+}
+.w-1:nth-child(3) .box{
+    background-color: yellow;
+}
+.w-1:last-child .box{
+    background-color: green;
+}

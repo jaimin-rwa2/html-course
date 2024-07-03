@@ -1,0 +1,3 @@
+- Use Of Media & Device Size 
+    - (Desktop, Mini Laptop, Tablet, Mobile Landscape, Mobile Portrait) Xxl, Xl, Lg, Md, Sm, Xs
+- Introdution of Meta Tag <meta name=' ' content=' '>
