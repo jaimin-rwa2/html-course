@@ -55,7 +55,6 @@ h1{
 	padding-left:15px;
 	margin:20px 0;
 }
-
 .quality-content p + a{
 	background-color:var(--theme-orange);
 	padding:10px 30px;
