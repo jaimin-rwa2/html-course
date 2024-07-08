@@ -1,7 +1,7 @@
 @media (max-width:1399px){
-    .w-xl-2{
+    /* .w-xl-2{
         width: 50%;
-    }
+    } */
     header nav ul:first-child{
         display: none;
     }
@@ -14,36 +14,39 @@
 }
 
 @media (max-width:1199px){
-    .w-lg-3{
-        width: 33.33%;
+    .w-lg-2{
+        width: 50%;
     }
     .container{
         max-width: 960px;
     }
+    h1{
+        font-size:60px;
+    }
 }
 
 @media (max-width:991px){
-    .w-md-4{
+    /* .w-md-4{
         width: 25%;
-    }
+    } */
     .container{
         max-width: 720px;
     }
 }
 
 @media (max-width:767px){
-    .w-sm-2{
+    /* .w-sm-2{
         width: 50%;
-    }
+    } */
     .container{
         max-width: 540px;
     }
 }
 
 @media (max-width:575px){
-    .w-xs-1{
+    /* .w-xs-1{
         width: 100%;
-    }
+    } */
     .container{
         max-width: 100%;
     }

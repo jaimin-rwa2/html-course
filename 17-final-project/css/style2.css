@@ -90,7 +90,7 @@ h1{
 	background-image:url(../img/what-we-1.jpg);
 	background-size:cover;
 	background-position:center;
-	margin:0 10px;
+	margin:10px;
 }
 .what-we-do-items h2{
 	color:var(--theme-white);
