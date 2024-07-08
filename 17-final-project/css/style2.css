@@ -26,6 +26,9 @@ header nav .ri-search-line, header nav .ri-menu-line{
 	font-size:25px;
 }
 
+.togal{
+	display: none;
+}
 /* QUALITY */
 .quality{
 	background-color:var(--theme-blue);

@@ -3,9 +3,9 @@ p{
     color: blueviolet;
     text-align: justify;  /* if we want alignment from both side*/
     /* font-weight: 100;  */
-    line-height: 2;  /* 50px and 2 line */
-    letter-spacing: 10px;
-    word-spacing: 80px;
+    line-height: 4;  /* 50px and 2 line */
+    letter-spacing: 20px;
+    word-spacing: 40px;
     font-style: italic;
     text-transform: uppercase;
     text-indent: 150px;
