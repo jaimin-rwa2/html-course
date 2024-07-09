@@ -46,6 +46,10 @@
     .container{
         max-width: 740px;
     }
+    .quality-content p{
+        height: 25px;
+        overflow: scroll;
+    }
     
 }
 
@@ -58,6 +62,10 @@
     }
     .quality-img img{
         margin-left: 0px;   
+    }
+    .quality-content p{
+        height: auto;
+        overflow: visible;
     }
     header nav ul:last-child li:last-child a{
         background-color:#10396a;
