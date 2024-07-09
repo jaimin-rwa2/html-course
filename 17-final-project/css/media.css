@@ -23,6 +23,10 @@
     h1{
         font-size:60px;
     }
+    .portfolio-title h2{
+        line-height:35px;
+        padding-top: 10px;
+    }
 }
 
 @media (max-width:991px){
@@ -39,21 +43,21 @@
     .quality-img img{
         margin-left: 60px;  
     }
-    .quality-content p{
-        max-height: 20px;
-        overflow: hidden;
-    }
     .container{
         max-width: 740px;
     }
+    
 }
 
 @media (max-width:767px){
     .w-sm-1{
         width: 100%;
     }
+    .w-sm-2{
+        width: 50%;
+    }
     .quality-img img{
-        margin-left: 48px;   
+        margin-left: 0px;   
     }
     header nav ul:last-child li:last-child a{
         background-color:#10396a;
@@ -64,6 +68,9 @@
         line-height:35px;
     }
     .quality{
+        padding-bottom:20px;
+    }
+    .quality-content{
         padding-bottom:20px;
     }
     .quality-content p + a{
@@ -83,15 +90,35 @@
     .what-we-do-title{
         margin-bottom:40px;
     }
+    .title-items a{
+        padding-top: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .portfolio-items{
+        margin-bottom: 10px;
+    }
+    .portfolio-title .col-7 .title-items{
+        margin:10px 0 0 0;
+    }
+    .footer-inner{
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    .footer-items{
+        text-align: center;
+        margin: 10px;
+    }
+    .footer-items h4{
+        font-size:25px;
+    }
+    
 }
 
 @media (max-width:575px){
     /* .w-xs-1{
         width: 100%;
     } */
-    .quality-img img{
-        margin-left: 48px;   
-    }
     header nav ul:last-child li:last-child a{
         background-color:#10396a;
         padding:5px 10px;
@@ -112,6 +139,12 @@
     }
     .what-we-do{
         padding:30px 0;
+    }
+    .what-we-do-title h4{
+        font-size:21px;
+    }
+    .what-we-do-title h2{
+        font-size:35px;
     }
     .what-we-do-btn a{
         padding:5px 20px;
