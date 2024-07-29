@@ -6,7 +6,7 @@
 
 .main{
     display: inline-block;
-    perspective: 900px;
+    perspective: 1000px;
     /* perspective help use to see rotaion in 3d way */
     /* lover the value, angel will be far, higer the value, angel will be near */
 }
@@ -16,12 +16,19 @@
     height: 200px;
     background-color: black;
     margin: 100px;
-    transform: rotate(45deg);   
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+    animation: mymove 5s infinite;
     /* transform: rotateX(45deg);    */
     /* transform: rotateY(45deg);    */
     /* rotate: 45deg */
 }
 
+@keyframes mymove {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+  }
 
 .box2{
     /*  scale fall between 0 to 1, if we give 1.1 then it will increse the size of box */
@@ -29,11 +36,17 @@
     height: 200px;
     background-color: black;
     margin: 100px;
-    transform: scale(0.5);   
+    animation: mymove2 5s infinite;   
     /* transform: scaleX(0.6);    */
     /* transform: scaleY(0.8);    */
     /* scal: 0.8 */
 }
+
+@keyframes mymove2 {
+    0% {transform: scaleY(1);}
+    50% {transform: scaleY(0);}
+    100% {transform: scaleY(1);}
+  }
 
 
 .box3{
@@ -43,11 +56,20 @@
     height: 200px;
     background-color: black;
     margin: 100px;
-    transform: skewX(20deg) skewY(20deg);   
+    animation: mymove3 5s infinite;
+    /* transform: skewX(50deg) skewY(10deg);    */
     /* transform: skewX(20deg);    */
     /* transform: skewY(20deg);    */
     /* skew dose not have property */
 }
+
+@keyframes mymove3 {
+    0% {transform: skewX(0deg) skewY(0deg);}
+    50% {transform: skewX(180deg)  skewY(180deg);}
+    100% {transform: skewX(360deg) skewX(360deg);}
+  }
+
+
 
 .box4{
     /*  */
@@ -55,9 +77,18 @@
     height: 200px;
     background-color: black;
     margin: 100px;
-    transform: translateX(90%);  /* in -ve and +ve px also */  
+    animation: mymove4 5s infinite;
+    /* transform: translateY(10%);   */
+    /* in -ve and +ve px also */  
     /* transform: translateX(20px);   horizontel move */
     /* transform: translateY(-20px);   vertical move */
     /* transform: translateX(-20px) translateY(20px); */
     /* translate: 50px */
 }
+
+
+@keyframes mymove4 {
+    0% {transform: translateX(0%);}
+    50% {transform: translateX(100px) translateY(100px);}
+    100% {transform: translateX(0%) translateY(200px);}
+  }
