@@ -5,8 +5,10 @@
     - linear gradiant
     - randian fradiant
     - moni gradiant
+    - https://cssgradient.io/
 
 EX : create parallax scrolling effect & backgroud property practice 
 
 
 https://inspirothemes.com/polo/home-sketch.html
+

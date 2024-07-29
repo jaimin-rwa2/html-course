@@ -9,6 +9,12 @@
     float value effects, content of all type
 */
 
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(13, 4, 142);
+}
+
 .box1{
     width: 200px;
     height: 200px;

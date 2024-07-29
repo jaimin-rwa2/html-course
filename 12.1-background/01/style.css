@@ -9,7 +9,7 @@
     height: 500px;
 
     background-size: cover;
-    background-position: bottom;  /* bottom,  center*/
+    background-position: top;  /* bottom,  center*/
     color: white;
 }
 
