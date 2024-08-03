@@ -52,7 +52,9 @@
     display: flex;
 }
 .flex-basis{
-    flex-basis: 500px;  /* same as width */
+    flex-basis: 100px;  
+    /* same as width */
+    /* width: 100px; */
     background-color: pink;
 }
 
@@ -80,7 +82,7 @@
 
 
 .grow{
-    flex-grow: 3;
+    flex-grow: 1;
 }
 
 /* shrink */
@@ -104,9 +106,9 @@
 
 
 .shrink1{
-    flex-shrink: 0;
+    flex-shrink: 2;
 }
 
 .shrink2{
-    flex-shrink: 4;
+    flex-shrink: 2;
 }
