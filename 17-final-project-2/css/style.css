@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+	--theme-blue:#0f172b;
+	--theme-orange:#fea116;
+	--theme-white:#ffffff;
+	--theme-light-gray:#f0f0f0;
+	--theme-gray:#666565;
+	--theme-black:#000000;
+}
+
+body{
+	font-family: "Open Sans", sans-serif;
+}
 
 a{
     display: inline-block;
@@ -73,18 +85,61 @@ ul, ol{
 .container{
     max-width: 1320px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
+}
+
+/* ======= BG IMAGE ====== */
+
+.background-img{
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../img/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
 }
 
 
 /* ======= HEADER ====== */
+
+header{
+    padding: 22px 48px;
+    font-family: "Nunito", sans-serif;
+}
 
 header nav{
     margin-left: auto;
 }
 
 header a{
-    padding: 0 5px;
+    padding: 0 24px;
+    font-size: 15px;
+    color: var(--theme-white);
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+header li a:hover{
+    color: var(--theme-orange);
+}
+
+header li:first-child a{
+    color: var(--theme-orange);
+}
+
+header ul + a{
+    padding: 8px 24px;
+    background-color: var(--theme-orange);
+    border-radius: 2%;
+}
+
+header ul + a:focus{
+    box-shadow: 0 0 0  #fea116;
+}
+
+.logo{
+    font-size: 30px;
+    color: var(--theme-orange);
+    font-weight: 800;
 }
 
 
@@ -92,4 +147,41 @@ header a{
 
 main img{
     width: 100%;
+}
+
+.main-content{
+    margin: 25px;
+}
+
+.main-img{
+    margin: 25px;
+}
+
+.main-content h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 4rem;
+    color: var(--theme-white);
+    line-height: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.main-content p{
+    color: var(--theme-white);
+    margin-bottom: 25px;
+}
+
+.main-content p + a{
+    padding: 1rem 3rem;
+    background-color: var(--theme-orange);
+    color: var(--theme-white);
+    border-radius: 2px;
+}
+
+
+
+/* ======= SERVICES ======= */
+
+.service-item{
+    
 }
