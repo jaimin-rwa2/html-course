@@ -1,95 +1,120 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-a{
-    display: inline-block;
-    text-decoration: none;
+:root {
+  --theme-white: #ffffff;
+  --theme-orange: #fea116;
 }
 
-ul, ol{
- list-style: none;
+a {
+  display: inline-block;
+  text-decoration: none;
 }
 
-.d-flex{
-    display: flex;
+ul,
+ol {
+  list-style: none;
 }
 
-.row{
-    display: flex;
-    flex-wrap: wrap;
+body {
+  font-family: "Heebo", sans-serif;
 }
 
-.align-items-center{
-    align-items: center;
+.d-flex {
+  display: flex;
 }
 
-.text-center{
-    text-align: center;
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.col-1{
-	width:8.33%;
-}
-.col-2{
-	width:16.66%;
-}
-.col-3{
-	width:25%;
-}
-.col-4{
-	width:33.33%;
-}
-.col-5{
-	width:41.65%;
-}
-.col-6{
-	width:50%;
-}
-.col-7{
-	width:58.31%;
-}
-.col-8{
-	width:66.64%;
-}
-.col-9{
-	width:75%;
-}
-.col-10{
-	width:83.33%;
-}
-.col-11{
-	width:91.63%;
-}
-.col-12{
-	width:100%;
-}
-.h-100{
-	height:100%;
+.align-items-center {
+  align-items: center;
 }
 
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 15px;
+.text-center {
+  text-align: center;
 }
 
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.65%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.31%;
+}
+.col-8 {
+  width: 66.64%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.63%;
+}
+.col-12 {
+  width: 100%;
+}
+.h-100 {
+  height: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* ====== BG-IMG ====== */
+
+.background-img {
+  background: linear-gradient(
+      90deg,
+      rgba(15, 23, 43, 0.9) 0%,
+      rgba(15, 23, 43, 0.9) 100%
+    ),
+    url(../img/bg-hero.jpg);
+  background-position: center;
+  /* background-size: cover; */
+}
 
 /* ======= HEADER ====== */
 
-header nav{
-    margin-left: auto;
+header nav {
+  margin-left: auto;
 }
 
-header a{
-    padding: 0 5px;
+header h2 {
+  color: orange;
 }
 
+header a {
+  padding: 0 5px;
+}
 
 /* ======= MAIN ====== */
 
-main img{
-    width: 100%;
+main img {
+  width: 100%;
 }
