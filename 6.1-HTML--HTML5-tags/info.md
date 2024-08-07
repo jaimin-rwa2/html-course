@@ -10,6 +10,9 @@
     - video
     - source
 
+    - main 
+    - aside
+
 - audi video and source tage attributes
     - rel
     - tyle
