@@ -5,8 +5,12 @@
 }
 
 :root {
-  --theme-white: #ffffff;
+  --theme-blue: #0f172b;
   --theme-orange: #fea116;
+  --theme-white: #ffffff;
+  --theme-light-gray: #f0f0f0;
+  --theme-gray: #666565;
+  --theme-black: #000000;
 }
 
 a {
@@ -96,25 +100,84 @@ body {
     ),
     url(../img/bg-hero.jpg);
   background-position: center;
-  /* background-size: cover; */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
 }
 
 /* ======= HEADER ====== */
+
+header {
+  padding: 20px 48px;
+  font-family: "Nunito", sans-serif !important;
+}
 
 header nav {
   margin-left: auto;
 }
 
 header h2 {
-  color: orange;
+  color: var(--theme-orange);
+  font-size: 40px;
+  font-weight: 800;
 }
 
 header a {
-  padding: 0 5px;
+  padding: 0 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--theme-white);
 }
 
+header li:first-child a {
+  color: var(--theme-orange);
+}
+
+header ul + a {
+  padding: 10px 25px;
+  border-radius: 2px;
+  background-color: var(--theme-orange);
+}
 /* ======= MAIN ====== */
 
 main img {
   width: 100%;
+  animation: rotate-img 50s linear infinite reverse;
+}
+
+.main-img {
+  padding: 20px;
+}
+
+/* @keyframes rotate-img {
+  to {
+    transform: rotate(0deg);
+  }
+  from {
+    transform: rotate(360deg);
+  }
+} */
+
+main {
+  padding: 30px 0px 60px 0px;
+}
+
+.main-content {
+  color: var(--theme-white);
+  padding-left: 15px;
+}
+
+.main-content h1 {
+  line-height: 1.2;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 64px;
+  font-weight: 800;
+  padding-bottom: 15px;
+}
+
+.main-content a {
+  margin-top: 15px;
+  padding: 15px 50px;
+  border-radius: 2px;
+  background-color: var(--theme-orange);
+  color: var(--theme-white);
 }
