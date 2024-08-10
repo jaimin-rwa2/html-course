@@ -17,9 +17,22 @@ body {
   /* background-color: #f1f8ff; */
 }
 
+.font-cursive {
+  font-family: "Pacifico", cursive;
+}
+
+.font-nunito {
+  font-family: "Nunito", sans-serif;
+}
+
 a {
   display: inline-block;
   text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 ul,
@@ -38,6 +51,14 @@ ol {
 
 .align-items-center {
   align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .text-center {
@@ -92,6 +113,11 @@ ol {
 }
 
 /* ======= BG IMAGE ====== */
+
+header h3 {
+  margin-left: auto;
+  display: none;
+}
 
 .background-img {
   background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
@@ -148,10 +174,6 @@ header .logo h2 {
 
 /* ======= MAIN ====== */
 
-main img {
-  width: 100%;
-}
-
 .main-content {
   margin: 25px;
 }
@@ -184,7 +206,7 @@ main img {
 
 /* ======= SERVICES ======= */
 
-.service{
+.service {
   margin: 100px 0;
 }
 
@@ -229,9 +251,118 @@ main img {
   color: var(--theme-white);
 }
 
-
 /* ========= about-us ======== */
 
-img{
-  width: 100%;
+.about-content-img {
+  padding: 10px;
+}
+
+.about-img {
+  padding: 8px;
+}
+
+.about-content-img div div:nth-child(2) img {
+  width: 75%;
+  margin-top: 25%;
+}
+
+.about-content-img div div:nth-child(3) img {
+  width: 75%;
+  margin-bottom: 25%;
+  margin-left: 25%;
+}
+
+.about-content h5 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #fea116;
+  position: relative;
+}
+
+.about-content h5::after {
+  content: "";
+  position: absolute;
+  background-color: var(--theme-orange);
+  width: 50px;
+  height: 3px;
+  top: 20px;
+  left: 120px;
+}
+
+.about-content h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.about-content h2 i {
+  font-size: 40px;
+  color: var(--theme-orange);
+}
+
+.about-content p {
+  font-size: 17px;
+  color: var(--theme-gray);
+}
+
+.about-content ul li h3 {
+  font-size: 55px;
+  font-weight: 900;
+  color: var(--theme-orange);
+  padding: 0 20px;
+}
+
+.about-content ul li h3 + ul li:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--theme-gray);
+}
+
+.about-content ul li h3 + ul li:last-child {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--theme-black);
+}
+
+.border-start {
+  border-left: 6px solid var(--theme-orange);
+}
+
+.about-content a {
+  padding: 20px 55px;
+  background-color: var(--theme-orange);
+  color: var(--theme-white);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+/* *****section food menu***** */
+
+.menu-title h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--theme-orange);
+}
+
+.menu-title h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--theme-black);
+}
+
+.menu-inner ul li i {
+  color: var(--theme-orange);
+}
+
+.menu-inner ul li p {
+  font-size: 15px;
+  color: var(--theme-gray);
+}
+
+.menu-inner ul li h6 {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--theme-black);
 }

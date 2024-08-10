@@ -1,0 +1,19 @@
+/* @media (max-width: 1399px) {
+  .logo + nav {
+    display: none;
+  }
+
+  header h3 {
+    display: block;
+  }
+}
+
+@media (max-width: 1190px) {
+  .col-xx-12 {
+    width: 100%;
+  }
+
+  .main-img {
+    padding: 200px;
+  }
+} */

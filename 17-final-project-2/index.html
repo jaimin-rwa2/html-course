@@ -10,11 +10,12 @@
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&amp;family=Nunito:wght@600;700;800&amp;family=Pacifico&amp;display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
 
-    <!-- header and main content -->
+    <!-- header and main content with position -->
     <div class="container">
         <div class="background-img">
             <header class="d-flex align-items-center">
@@ -33,10 +34,13 @@
                     <a href="#">BOOK A TABLE</a>
 
                 </nav>
+
+                <h3 style="color: white;"> |||</h3>
+
             </header>
 
             <main class="row align-items-center">
-                <div class="col-6">
+                <div class="col-6 col-xx-12">
                     <div class="main-content">
                         <h1>
                             Enjoy Our
@@ -51,7 +55,7 @@
                     </div>
                 </div>
 
-                <div class="col-6">
+                <div class="col-6 col-xx-12">
                     <div class="main-img">
                         <img src="img/hero.png" alt="main-dish-img">
                     </div>
@@ -103,9 +107,9 @@
 
     <section class="about">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-6">
-                    <div class="about-content"> <!-- name -->
+                    <div class="about-content-img">
                         <div class="row">
                             <div class="col-6">
                                 <div class="about-img">
@@ -132,49 +136,82 @@
                 </div>
                 <div class="col-6">
                     <div class="about-content">
-                        <div class="about-content-title">
-                            <h5>about us</h5>
-                            <h2>Welcome to <i class="fa fa-utensils text-primary me-2"></i> Restoran</h2>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos
-                                erat
-                                ipsum et lorem et sit, sed stet lorem sit.</p>
-                            <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
-                                Clita
-                                erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
-                            </p>
-                        </div>
+                        <h5 class="font-cursive">About Us</h5>
+                        <h2 class="font-nunito">Welcome to <i class="fa fa-utensils text-primary me-2"></i> Restoran
+                        </h2>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos
+                            erat
+                            ipsum et lorem et sit, sed stet lorem sit.</p>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+                            Clita
+                            erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                        </p>
+                        <ul class="row space-between">
+                            <li class="d-flex align-items-center border-start">
+                                <h3 class="font-nunito">15</h3>
+                                <ul>
+                                    <li>Years of</li>
+                                    <li class="font-nunito">Experience</li>
+                                </ul>
+                            </li>
 
-                        <div class="about-content-exp">
-                            <div class="row">
-                                <div class="col-6">
-                                    <div class="d-flex">
-                                        <h3>15</h3>
-                                        <ul>
-                                            <li>Years of</li>
-                                            <li>Experience</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="d-flex">
-                                        <h3>50</h3>
-                                        <ul>
-                                            <li>Popular</li>
-                                            <li>Master Chefs</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <li class="d-flex align-items-center border-start">
+                                <h3 class="font-nunito">50</h3>
+                                <ul>
+                                    <li>Popular</li>
+                                    <li class="font-nunito">Master Chefs</li>
+                                </ul>
+                            </li>
+                        </ul>
 
-                        <div class="about-content-btn">
-                            <a href="">READ MORE</a>
-                        </div>
-
+                        <a class="font-nunito" href="">READ MORE</a>
                     </div>
+
                 </div>
             </div>
         </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="menu">
+        <div class="container">
+            <div class="menu-title text-center">
+                <h5 class="font-cursive">Food Menu</h5>
+                <h2 class="font-nunito">Most Popular Items</h2>
+            </div>
+
+            <div class="menu-inner">
+                <div class="row justify-center">
+                    <ul class="d-flex">
+                        <li>
+                            <i class="fa fa-coffee fa-2x text-primary"></i>
+                        </li>
+                        <li>
+                            <p>Popular</p>
+                            <h6>Breakfast</h6>
+                        </li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li>
+                            <i class="fa fa-hamburger fa-2x text-primary"></i>
+                        </li>
+                        <li>
+                            <p>Special</p>
+                            <h6>Launch</h6>
+                        </li>
+                    </ul>
+                    <ul class="d-flex">
+                        <li>
+                            <i class="fa fa-utensils fa-2x text-primary"></i>
+                        </li>
+                        <li>
+                            <p>Popular</p>
+                            <h6>Breakfast</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 </body>
