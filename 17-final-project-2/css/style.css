@@ -114,13 +114,20 @@ ol {
 
 /* ======= HEADER ====== */
 
-header {
+header .container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+header .container > div {
   padding: 22px 48px;
   font-family: "Nunito", sans-serif;
+  position: absolute;
 }
 
 header .logo + nav {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 header a {
@@ -251,6 +258,14 @@ main .container{
 
 /* ========= about-us ======== */
 
+.about{
+  margin-top: 48px;
+}
+
+.about-content{
+  margin-top: 24px;
+}
+
 .about-content-img {
   padding: 10px;
 }
@@ -337,6 +352,10 @@ main .container{
 }
 
 /* =======  menu =======*/
+
+.menu{
+  margin-top: 48px;
+}
 
 .menu-title h5 {
   font-size: 20px;
@@ -547,8 +566,8 @@ input[type="submit"] {
   margin-right: 24px;
 }
 
-.testimonial-inner div div:first-child .testimonial-item {
-  margin-left: 24px;
+.testimonial-inner div div:last-child .testimonial-item {
+  margin-right: 0px;
 }
 
 .testimonial-item i {
