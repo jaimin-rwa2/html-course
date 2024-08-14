@@ -1,19 +1,56 @@
-/* @media (max-width: 1399px) {
-  .logo + nav {
-    display: none;
-  }
+@media (max-width:1399px){
 
-  header h3 {
-    display: block;
+  .container{
+      max-width: 1140px;
   }
 }
 
-@media (max-width: 1190px) {
-  .col-xx-12 {
+@media (max-width:1199px){
+  .container{
+      max-width: 960px;
+  }
+
+  header a {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width:991px){
+  .container{
+      max-width: 720px;
+  }
+
+  header .logo + nav{
+    display: none;
+  }
+
+  .col-md-12{
     width: 100%;
   }
 
-  .main-img {
-    padding: 200px;
+  .col-md-6{
+    width: 50%;
   }
-} */
+
+  .reservation .container, footer .container{
+    max-width: 100%;
+    padding: 0 ;
+  }
+
+  .footer .container .footer-inner div{
+    justify-content: space-around;
+  }
+  
+}
+
+@media (max-width:767px){
+  .container{
+      max-width: 540px;
+  }
+}
+
+@media (max-width:575px){
+  .container{
+      max-width: 100%;
+  }
+}

@@ -107,26 +107,9 @@ ol {
 }
 
 .container {
-  /* max-width: 1320px; */
-  max-width: 1350px;
+  max-width: 1320px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-/* ======= BG IMAGE ====== */
-
-header h3 {
-  margin-left: auto;
-  display: none;
-}
-
-.background-img {
-  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
-    url(../img/bg-hero.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding-bottom: 50px;
 }
 
 /* ======= HEADER ====== */
@@ -136,7 +119,7 @@ header {
   font-family: "Nunito", sans-serif;
 }
 
-header nav {
+header .logo + nav {
   margin-left: auto;
 }
 
@@ -173,7 +156,21 @@ header .logo h2 {
   font-weight: 800;
 }
 
+header .logo h2 i{
+  padding-right: 3px;
+}
+
 /* ======= MAIN ====== */
+
+
+main .container{
+  background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
+    url(../img/bg-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0 50px 0;
+}
 
 .main-content {
   margin: 25px;
