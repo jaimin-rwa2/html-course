@@ -114,16 +114,13 @@ ol {
 
 /* ======= HEADER ====== */
 
-header .container{
-  padding-left: 0;
-  padding-right: 0;
-}
-
-
-header .container > div {
+header {
   padding: 22px 48px;
   font-family: "Nunito", sans-serif;
   position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 header .logo + nav {
@@ -163,14 +160,13 @@ header .logo h2 {
   font-weight: 800;
 }
 
-header .logo h2 i{
+header .logo h2 i {
   padding-right: 3px;
 }
 
 /* ======= MAIN ====== */
 
-
-main .container{
+main .container {
   background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)),
     url(../img/bg-hero.jpg);
   background-size: cover;
@@ -220,15 +216,16 @@ main .container{
   margin: 10px;
   padding: 10px;
   transition: 0.5s;
+  background-color: var(--theme-white);
 }
 
 .service-item:hover {
   background-color: var(--theme-orange);
-  color: white;
+  color: var(--theme-white);
 }
 
 .service-item:hover i {
-  color: white;
+  color: var(--theme-white);
 }
 
 .service-item i {
@@ -258,11 +255,11 @@ main .container{
 
 /* ========= about-us ======== */
 
-.about{
+.about {
   margin-top: 48px;
 }
 
-.about-content{
+.about-content {
   margin-top: 24px;
 }
 
@@ -353,7 +350,7 @@ main .container{
 
 /* =======  menu =======*/
 
-.menu{
+.menu {
   margin-top: 48px;
 }
 
@@ -519,6 +516,7 @@ input[type="submit"] {
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   padding: 24px;
   margin: 12px;
+  background-color: var(--theme-white);
 }
 
 .team-member img {
