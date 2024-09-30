@@ -1,13 +1,12 @@
-@media (max-width:1399px){
-
-  .container{
-      max-width: 1140px;
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
-@media (max-width:1199px){
-  .container{
-      max-width: 960px;
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
   }
 
   header a {
@@ -15,30 +14,59 @@
   }
 }
 
-@media (max-width:991px){
-  .container{ 
-      max-width: 720px;
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
   }
 
-  header .logo + nav{
+  header {
+    background-color: var(--theme-blue);
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  header .logo + nav {
     display: none;
   }
 
-  .col-md-12{
+  .toggle-nav {
+    display: block;
+  }
+
+  .sliding-nav {
+    margin-top: 60px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background-color: var(--theme-blue);
+  }
+
+  .sliding-nav .logo + nav ul {
+    display: flex;
+  }
+
+  .sliding-nav {
+    display: none;
+  }
+
+  .col-md-12 {
     width: 100%;
   }
 
-  .col-md-6{
+  .col-md-6 {
     width: 50%;
   }
 
-  main .container, header .container{
+  main .container,
+  header .container {
     max-width: 100%;
     padding-left: 48px;
     padding-right: 48px;
   }
 
-  .testimonial-item{
+  .testimonial-item {
     margin-top: 15px;
   }
 
@@ -46,16 +74,17 @@
     margin-right: 0px;
   }
 
-  .reservation .container, footer .container{
+  .reservation .container,
+  footer .container {
     max-width: 100%;
-    padding: 0 ;
+    padding: 0;
   }
 
-  .footer .container .footer-inner div{
+  .footer .container .footer-inner div {
     justify-content: space-around;
   }
 
-  .footer-item{
+  .footer-item {
     margin-top: 15px;
     text-align: center;
   }
@@ -63,26 +92,24 @@
   .service-item {
     margin-top: 24px;
   }
-  
 }
 
-@media (max-width:767px){
-  .container{
-      max-width: 540px;
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
   }
 
-  .col-sm-12{
+  .col-sm-12 {
     width: 100%;
   }
 
-  .reservation-video{
+  .reservation-video {
     height: 500px;
   }
-
 }
 
-@media (max-width:575px){
-  .container{
-      max-width: 100%;
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
   }
 }
