@@ -1,4 +1,4 @@
-1. Intro to FIELD(course)
+1. Intro to FIELD(course) 
 2. Intro to HTML
     - Hypertext markup language, we use to creat Web pages, found by Tim Bearners-Lee in 1993
     - HTML syntax uses the angle brackets (”<” and ”>”) to hold the name of an HTML element
